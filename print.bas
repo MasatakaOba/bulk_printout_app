@@ -3,7 +3,7 @@ Sub かんたん一括印刷くん起動()
     
     Dim ws As Worksheet, flag As Boolean
     
-    UserForm2.Show vbModeless
+    UserForm1.Show vbModeless
     
     For Each ws In Worksheets
         
